@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+p {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:500;
+  font-style: normal;
+}
+
+html{
+background-color: #191921;
+opacity: 1;
+background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #191921 40px ), repeating-linear-gradient( #31881e55, #31881e );
+}
+body{
+  margin: 0px;
+  padding: 0px;
+}
+section{
+  background-color:solid green;
+  width: 80%;
+  margin: 0px auto;
+  padding: 40px 0px;
+  display: flow-root;
+}
+article{
+  width: calc(100%/3 - 40px - 4px);
+  background-color: #6ebe69;
+  float:left;
+  margin: 0px 20px;
+  border: 2px solid green;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+p{
+  text-align: center;
+ 
+  
+}
+h1{
+  text-align: center;
+  margin: 60px auto;
+  border: 2px solid green;
+  border-radius: 18px;
+  width:80%;
+  padding: 10px 0px;
+   font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+  color:white;
+}
+.iz{
+  float: left;
+  width: 60%;
+  border: 2px solid #7c8b7b;
+  border-radius: 18px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 10%;
+
+}
+footer{
+   display:flow-root;
+background: #14bdff;
+background: linear-gradient(90deg, rgba(20, 189, 255, 1) 0%, rgba(58, 59, 66, 1) 0%, rgba(18, 97, 39, 1) 100%, rgba(245, 2, 6, 1) 100%);
+  margin: 60px auto;
+}
+footer>a {
+  display:block;
+  width: 40px;
+  height: 40px;
+  background-color:#7c8b7b;
+  float:right;
+  border-radius:30px;
+  margin-top:30px;
+  margin-right:80px;
+}
+.last{
+  margin-right: 10%;
+  background-color: #7c8b7b;
+}
+article>img{
+  width:100%;
+  height:400px;
+  object-fit:none;
+  object-position:50% 50%;
+}
+button{
+  background-color: #e0e7ee; 
+    color: #333; 
+    border: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    display:block;
+    margin:0px auto;
+}
+footer>a>i{
+  display:block;
+  width:100%;
+  text-align:center;
+  font-size:23px;
+  padding: 9px 0px;
+  color:black;
+}
+footer > a > i:hover {
+  color:white;
+}
+.listen-button:hover{
+  color:green;
+  background-color:black;
+}
